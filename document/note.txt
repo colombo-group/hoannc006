@@ -1,0 +1,36 @@
+Database: 
+fullname
+username
+email
+password 
+level : 0-guest, 1-user, 2-admod, 3-administrator
+phone
+avatar
+description
+SQL : 
+CREATE TABLE `hoannc006`.`users` ( 
+`id` INT(10) NOT NULL AUTO_INCREMENT , 
+`username` VARCHAR(50) NOT NULL , 
+`email` VARCHAR(50) NOT NULL , 
+`password` VARCHAR(32) NOT NULL , 
+`level` INT(1) NOT NULL , 
+`phone` VARCHAR(20) NOT NULL , 
+`avatar` VARCHAR(255) NULL , 
+`description` TEXT NULL , 
+`presenter` VARCHAR(50) NULL , 
+`create_at` DATETIME NOT NULL , 
+`update_at` DATETIME NOT NULL , 
+PRIMARY KEY (`id`)
+) ENGINE = InnoDB;
+Chức năng: 
+- Đăng nhập
+- Chỉnh sửa thông tin: Khi sửa thông tin thì toàn bộ các trường là bắt buộc. 
+	+ Quyền hạn: Nếu 0 thì ko có quyền sửa. 
+			Nếu 1 : Sửa chính mình
+			Nếu 2: Sửa của mình và user
+			Nếu 3: Sửa tất cả. 
+- Hiển thị chi tiết của 1 người. 
+- Home: Hiển thị danh sách toàn bộ user
+
+
+Thiết kế giao diện trang chủ: 

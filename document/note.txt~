@@ -1,0 +1,23 @@
+Database: 
+fullname
+username
+email
+password 
+level : 0-guest, 1-user, 2-admod, 3-administrator
+phone
+avatar
+description
+
+
+Chức năng: 
+- Đăng nhập
+- Chỉnh sửa thông tin: Khi sửa thông tin thì toàn bộ các trường là bắt buộc. 
+	+ Quyền hạn: Nếu 0 thì ko có quyền sửa. 
+			Nếu 1 : Sửa chính mình
+			Nếu 2: Sửa của mình và user
+			Nếu 3: Sửa tất cả. 
+- Hiển thị chi tiết của 1 người. 
+- Home: Hiển thị danh sách toàn bộ user
+
+
+Thiết kế giao diện trang chủ: 
