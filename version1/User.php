@@ -101,9 +101,5 @@ function getListUserIntroduce($id){
 	}
 	return $data;
 }
- // function sort_create_up(){
- // 	$sql = "SELECT * FROM users ORDER BY create_at DESC";
- // 	return get_list($sql);
- // }
-// Sort
+
 ?>

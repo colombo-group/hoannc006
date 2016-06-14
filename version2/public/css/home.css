@@ -1,0 +1,159 @@
+#slide{
+	background-image: url('../images/home/background-slide.png');
+	height: 400px;
+	width: 100%;
+}
+#slide img{
+	margin-top: 40px;
+	height: 100%;
+	width: 100%;
+}
+.inline {
+	display: inline-block;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#list-user {
+	/*margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: 100px;*/
+	width: 1000px;
+	margin: 50px auto;
+	padding: 30px 40px;
+	background-color: #ffffff;
+	  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#list-user .heading {
+	font-size: 20px;
+	font-style: inherit;
+}
+#list-user .col-2 {
+	width: 50px;
+}
+
+#list-user .col-3 {
+	padding-left: 20px;
+	width: 200px;
+}
+
+#list-user .col-4{
+	width: 470px;
+}
+#list-user .col-5{
+	width: 170px;
+}
+#list-user .col-6{
+	padding-left: 10px;
+	width: 20px;
+}
+#list-user .col-7{
+	padding-left: 10px;
+	width: 20px;
+}
+#list-user .list-row a {
+	text-decoration: none;
+	color: blue
+}
+#list-user .list-row a:hover {
+	text-decoration: none;
+	color:green;
+}
+#list-user .description {
+	font-style: italic;
+}
+/*End Page home*/
+#edit-user {
+	width: 1100px;
+	margin: auto;
+}
+#edit-user .col-1 {
+
+	float: left;
+	width: 150px;
+	padding-left: 50px;
+}
+
+#edit-user .col-2{
+	width: 300px;
+}
+#edit-user .col-3{
+	width: 100px;
+	padding-left: 30px;
+}
+#edit-user .col-4{
+	width: 300px;
+}
+
+#edit-user textarea{
+	width: 733px;
+}
+#edit-user .description {
+	margin-top: 50px;
+}
+#edit-user .date {
+	background: #f2f2f2;
+	width: 70px;
+	height: 30px;
+	font-size: 16px;
+	margin-left: 20px;
+}
+/*End page Edit*/
+
+/*page Detail*/
+#detail {
+	margin: 50px auto;
+	padding: 40px 20px;
+	background: #ffffff;
+	width: 800px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#detail .avatar {
+	margin: auto;
+	padding-top: 50px;
+	width: 100px;
+}
+#detail .fullname {
+	margin: auto;
+	padding-top: 20px;
+	width: 400px;
+	text-align: center;
+	font-size: 40px;
+}
+#detail .col-1 {
+	padding-left: 100px;
+	width: 150px;
+}
+#detail .col-2 {
+	padding-left: 50px;
+	/*width: 150px;*/
+}
+/*End page Detail*/
+
+#view {
+	padding-top: 30px;
+	width: 200px; 
+	margin: auto;
+	text-align: center;
+}
+
+.page-button {
+	width: 50px; 
+	height: 50px; 
+	padding-left:10px;
+	padding-right:10px;
+}
+
+/*Page Edit*/
+#edit-user .info1{
+	margin: auto;
+	padding-top: 50px;
+	width: 100px;
+}
+
+
+
+
+
+
